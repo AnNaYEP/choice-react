@@ -88,7 +88,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import { Container, Navbar, Nav, NavDropdown, Row, Col, Button, Form, InputGroup, Image } from 'react-bootstrap';
-import { Instagram, Facebook, Twitter, Search, GlobeAsiaAustralia } from 'react-bootstrap-icons';
+import { Search, GlobeAsiaAustralia } from 'react-bootstrap-icons';
 
 const TopMenu = () => (
   <Navbar collapseOnSelect expand="md" className="text-white topNav">
@@ -178,7 +178,7 @@ const FullWidthImage = () => (
       <Row>
         <Col>
           <h1 className="text-center pt-5 fw-light text-white">Get in touch</h1>
-          <p className="text-center pt-3 pb-4 text-white">Haven't found what you are looking for?</p>
+          <p className="text-center pt-3 pb-4 text-white">Haven&apos;t found what you are looking for?</p>
           <Button className="d-block mx-auto oBg text-black">Contact us</Button>
         </Col>
       </Row>
