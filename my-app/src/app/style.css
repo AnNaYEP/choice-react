@@ -1,0 +1,37 @@
+.footer {
+  color: white;
+}
+
+.topNav {
+  background-color: #251807;
+}
+
+.logo {
+  max-width: 400px;
+}
+
+.oText {
+  color: #ff9100;
+}
+
+.oBg {
+  background-color: #ff9100;
+}
+
+.boxBg {
+  background-color: #170e02;
+}
+
+.bodyBg {
+  background-image: url("../../public/banner.svg");
+  background-size: cover;
+}
+
+.footerBg {
+  background-image: url("../../public/footer.svg");
+  background-size: cover;
+}
+
+.navbar-dark .dropdown-toggle {
+  color: white !important;
+}
